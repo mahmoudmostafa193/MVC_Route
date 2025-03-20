@@ -1,0 +1,16 @@
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\bin\Debug\net8.0\Company.G02.BLL.deps.json
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\bin\Debug\net8.0\Company.G02.BLL.dll
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\bin\Debug\net8.0\Company.G02.BLL.pdb
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\bin\Debug\net8.0\Company.G02.DAL.dll
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\bin\Debug\net8.0\Company.G02.DAL.pdb
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company.G02.BLL.csproj.AssemblyReference.cache
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company.G02.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company.G02.BLL.AssemblyInfoInputs.cache
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company.G02.BLL.AssemblyInfo.cs
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company.G02.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company.G02.BLL.sourcelink.json
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company..E42C2C8C.Up2Date
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company.G02.BLL.dll
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\refint\Company.G02.BLL.dll
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\Company.G02.BLL.pdb
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.BLL\obj\Debug\net8.0\ref\Company.G02.BLL.dll

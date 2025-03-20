@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Company.G02.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+396b68140ee591b18f6f3f8bb0b7963b8c5b88ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c958bef5a68cedd59d9d6611f1ca60d049f0ea21")]
 [assembly: System.Reflection.AssemblyProductAttribute("Company.G02.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Company.G02.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
