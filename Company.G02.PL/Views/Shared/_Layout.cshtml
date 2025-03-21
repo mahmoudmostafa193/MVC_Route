@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+    @*start header*@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +9,8 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Company.G02.PL.styles.css" asp-append-version="true" />
 </head>
+@*end header*@
+@*start body*@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -25,6 +28,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Department" asp-action="Index">Department</a>
+                        </li> 
                     </ul>
                 </div>
             </div>
@@ -35,7 +41,8 @@
             @RenderBody()
         </main>
     </div>
-
+</body>
+@*end body*@
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2025 - Company.G02.PL - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
@@ -45,5 +52,5 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
-</body>
+
 </html>

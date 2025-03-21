@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73BA1B81-878B-4A42-88EB-288FBB7E11D3}|Company.G02.DAL\\Company.G02.DAL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.dal\\data\\contexts\\companydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73BA1B81-878B-4A42-88EB-288FBB7E11D3}|Company.G02.DAL\\Company.G02.DAL.csproj|solutionrelative:company.g02.dal\\data\\contexts\\companydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73BA1B81-878B-4A42-88EB-288FBB7E11D3}|Company.G02.DAL\\Company.G02.DAL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.dal\\data\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73BA1B81-878B-4A42-88EB-288FBB7E11D3}|Company.G02.DAL\\Company.G02.DAL.csproj|solutionrelative:company.g02.dal\\data\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,54 +42,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Program.cs",
-              "RelativeDocumentMoniker": "Company.G02.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Program.cs",
-              "RelativeToolTip": "Company.G02.PL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:02:58.704Z",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "Company.G02.PL\\Views\\Department\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "Company.G02.PL\\Views\\Department\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T12:13:45.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\appsettings.json",
-              "RelativeDocumentMoniker": "Company.G02.PL\\appsettings.json",
-              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\appsettings.json",
-              "RelativeToolTip": "Company.G02.PL\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T12:43:24.111Z",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Company.G02.PL\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Company.G02.PL\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:31:02.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CompanyDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.DAL\\Data\\Contexts\\CompanyDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Company.G02.DAL\\Data\\Contexts\\CompanyDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.DAL\\Data\\Contexts\\CompanyDbContextFactory.cs",
-              "RelativeToolTip": "Company.G02.DAL\\Data\\Contexts\\CompanyDbContextFactory.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:41:39.416Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Company.G02.PL\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Company.G02.PL\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T18:55:33.468Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
-              "RelativeDocumentMoniker": "Company.G02.DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
-              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
-              "RelativeToolTip": "Company.G02.DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T12:41:34.818Z"
             }
           ]
         }
