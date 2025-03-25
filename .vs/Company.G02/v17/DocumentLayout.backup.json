@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\views\\department\\delate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\views\\department\\delate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|c:\\users\\nvidia\\source\\repos\\company.g02\\company.g02.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3446ECB1-BE01-4B53-B2CF-A5D330EBCB8C}|Company.G02.PL\\Company.G02.PL.csproj|solutionrelative:company.g02.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 198,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,12 +51,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Delate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Delate.cshtml",
+              "RelativeDocumentMoniker": "Company.G02.PL\\Views\\Department\\Delate.cshtml",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Delate.cshtml",
+              "RelativeToolTip": "Company.G02.PL\\Views\\Department\\Delate.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T19:08:05.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Company.G02.PL\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "Company.G02.PL\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T18:31:20.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Details.cshtml",
               "RelativeDocumentMoniker": "Company.G02.PL\\Views\\Department\\Details.cshtml",
               "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Details.cshtml",
               "RelativeToolTip": "Company.G02.PL\\Views\\Department\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBgAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-21T12:13:45.361Z",
               "EditorCaption": ""
@@ -61,7 +95,7 @@
               "RelativeDocumentMoniker": "Company.G02.PL\\Controllers\\DepartmentController.cs",
               "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "Company.G02.PL\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T11:31:02.049Z",
               "EditorCaption": ""
@@ -74,7 +108,7 @@
               "RelativeDocumentMoniker": "Company.G02.PL\\Views\\Department\\Index.cshtml",
               "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Company.G02\\Company.G02.PL\\Views\\Department\\Index.cshtml",
               "RelativeToolTip": "Company.G02.PL\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwEMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-20T18:55:33.468Z",
               "EditorCaption": ""

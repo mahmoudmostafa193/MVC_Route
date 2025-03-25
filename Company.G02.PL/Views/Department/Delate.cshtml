@@ -1,11 +1,15 @@
 ﻿@model Department
 
-<h1>Details Page</h1>
+@{
+    ViewData["Title"] = "Delate";
+}
 
+<h1>Delate Department:</h1>
 <br />
 <br />
 
-<div>
+
+<form asp-action="Delete">
     <div class="form-group">
         <label asp-for="Code" class="col-form-label"></label>
         <input readonly asp-for="Code" class="form-control" />
@@ -20,8 +24,7 @@
     @*     <label asp-for="DateOfCreation" class="col-form-label"></label> *@
     @*     <input readonly asp-for="DateOfCreation" class="form-control" /> *@
     @* </div> *@
-
-    <a asp-controller="Department"  asp-action="Edit" class="btn btn-warning my-4">Edit</a>
-    <a asp-controller="Department" asp-action="Index" class="btn btn-light my-4">Back To List</a>
-</div>
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a asp-controller="Department" asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
 

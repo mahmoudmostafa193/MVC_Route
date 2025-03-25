@@ -17,16 +17,64 @@ namespace Company.G02.PL.Controllers
         {
             return View(_departmentRepository.GetAll());
         }
-        //[HttpGet("{id}")]
-        //public IActionResult Details(int id)
-        //{
-        //    var model = _departmentRepository.Get(id);
-        //    if (model == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(model);
-        //}
+
+
+        [HttpGet]
+        public IActionResult Details(int? id, string viewname= "Details")
+        {
+            if (id == null)
+            {
+                return BadRequest();
+            }
+            var model = _departmentRepository.Get(id.Value);
+            if (model == null)
+            {
+                return NotFound();
+            }
+            return View(viewname,model);
+        }
+
+
+        [HttpGet]
+        public IActionResult Edit(int? id)
+        {
+            //if (id == null)
+            //{
+            //    return BadRequest();
+            //}
+            //var model = _departmentRepository.Get(id.Value);
+            //if (model == null)
+            //{
+            //    return NotFound();
+            //}
+            return Details(id,"Edit");
+        }
+        [HttpPost]
+        public IActionResult Edit(CreateDepartmentDTO model)
+        {
+            if (ModelState.IsValid)
+            {
+                if (model == null)
+                {
+                    return BadRequest();
+                }
+                var department = new Department
+                {
+                    Code = model.Code,
+                    Name = model.Name,
+
+                };
+                var c = _departmentRepository.Update(department);
+
+                if (c > 0)
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+
+               return View(model);
+            
+        }
 
         [HttpGet]
         public IActionResult Create()
@@ -59,6 +107,38 @@ namespace Company.G02.PL.Controllers
             }
             return View(model);
         }
+
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            //if (id == null)
+            //{
+            //    return BadRequest();
+            //}
+            //var model = _departmentRepository.Get(id.Value);
+            //if (model == null)
+            //{
+            //    return NotFound();
+            //}
+            return Details(id,"Delete");
+        }
+        [HttpPost]
+        public IActionResult Delete(Department model)
+        {
+            if (model == null)
+            {
+                return BadRequest();
+            }
+            var c = _departmentRepository.Delete(model);
+            if (c > 0)
+            {
+                return RedirectToAction("Index");
+            }
+            return View(model);
+        }
+
+
+
     }
 
 }
