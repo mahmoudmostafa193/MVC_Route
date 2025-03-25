@@ -25,6 +25,7 @@ namespace Company.G02.DAL.Data.Contexts
         //{
         //    optionsBuilder.UseSqlServer("Server=.;Database=CompanyG02;Trusted_Connection=True;TrustServerCertificate=True");
         //}
+        public DbSet<Employee> Employees { get; set; }  
         public DbSet<Department> Departments { get; set; }
     }
 }

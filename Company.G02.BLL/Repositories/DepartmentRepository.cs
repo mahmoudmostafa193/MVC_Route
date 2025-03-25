@@ -9,50 +9,53 @@ using System.Threading.Tasks;
 
 namespace Company.G02.BLL.Repositories
 {
-    public class DepartmentRepository : IDepartmentRepository
+    public class DepartmentRepository : GenericRepository<Department>, IDepartmentRepository
     {
-        private readonly CompanyDbContext _context;
-        public DepartmentRepository(CompanyDbContext context)
+        public DepartmentRepository(CompanyDbContext context) : base(context)
         {
-            this._context = context;
         }
-        public int Add(Department model)
-        {
-          
-            _context.Departments.Add(model);
-            return _context.SaveChanges();
-            
-        }
+        //    private readonly CompanyDbContext _context;
+        //    public DepartmentRepository(CompanyDbContext context)
+        //    {
+        //        this._context = context;
+        //    }
+        //    public int Add(Department model)
+        //    {
 
-        public int Delete(Department model)
-        {
-           
-            _context.Departments.Remove(model);
-            return _context.SaveChanges();
-        }
+        //        _context.Departments.Add(model);
+        //        return _context.SaveChanges();
 
-        public Department? Get(int id)
-        {
-     
+        //    }
 
-            return _context.Departments.FirstOrDefault(d=> d.Id==id);
-        }
+        //    public int Delete(Department model)
+        //    {
 
-        public IEnumerable<Department> GetAll()
-        {
-            
+        //        _context.Departments.Remove(model);
+        //        return _context.SaveChanges();
+        //    }
 
-            return _context.Departments.ToList();
+        //    public Department? Get(int id)
+        //    {
 
-        
-        }
 
-        public int Update(Department model)
-        {
-           
-            _context.Departments.Update(model);
-            return _context.SaveChanges();
+        //        return _context.Departments.FirstOrDefault(d=> d.Id==id);
+        //    }
 
-        }
+        //    public IEnumerable<Department> GetAll()
+        //    {
+
+
+        //        return _context.Departments.ToList();
+
+
+        //    }
+
+        //    public int Update(Department model)
+        //    {
+
+        //        _context.Departments.Update(model);
+        //        return _context.SaveChanges();
+
+        //    }
     }
 }
