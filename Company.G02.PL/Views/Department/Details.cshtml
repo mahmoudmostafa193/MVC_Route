@@ -20,8 +20,8 @@
     @*     <label asp-for="DateOfCreation" class="col-form-label"></label> *@
     @*     <input readonly asp-for="DateOfCreation" class="form-control" /> *@
     @* </div> *@
-
-    <a asp-controller="Department"  asp-action="Edit" class="btn btn-warning my-4">Edit</a>
+    
+    <a asp-controller="Department" asp-route-id="@Model.Id" asp-action="Edit" class="btn btn-warning my-4">Edit</a>
     <a asp-controller="Department" asp-action="Index" class="btn btn-light my-4">Back To List</a>
 </div>
 
