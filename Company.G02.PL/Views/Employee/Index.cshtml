@@ -5,8 +5,27 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>All Employee</h1>
+@if (string.IsNullOrEmpty(TempData["Message"]as string))
+{
+    <div class="m-3 alert alert-info">
+        <p>@TempData["Message"]</p>
 
+    </div>
+}
+
+<h1>All Employee</h1>
+<form>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <input id="SearchInput" placeholder="Search By Name" name="SearchInput" class="form-control" />
+            </div>
+            <div class="col-6">
+                <input type="submit" class="btn btn-success" value="Search" />
+            </div>
+        </div>
+    </div>
+</form>
 <br />
 <br />
 
@@ -69,6 +88,9 @@
                     </td>
                     <td>
                         @item.HiringDate.ToString("yyyy-MM-dd")
+                    </td>
+                    <td>
+                        @item.Department?.Name??   "No Department"
                     </td>
                     <td>
                         <a asp-action="Edit" asp-controller="Employee" class="btn btn-info" asp-route-id="@item.Id">Update</a>

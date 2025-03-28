@@ -15,6 +15,11 @@ namespace Company.G02.DAL.Data.Configurations
         {
             builder.Property(e => e.Salary)
              .HasColumnType("decimal(18,2)");
+
+            builder.HasOne(E => E.Department)
+ .WithMany(D => D.Employees)
+ .HasForeignKey(E => E.DepartmentId)
+ .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

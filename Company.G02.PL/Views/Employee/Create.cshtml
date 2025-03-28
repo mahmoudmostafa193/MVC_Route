@@ -1,10 +1,13 @@
 ﻿
 @model CreateEmployeeDTO
-
-
 @{
-    ViewData["Title"] = "Create";
+    var departmentList = ViewData["departments"] as IEnumerable<Department> ?? new List<Department>();
+    var Departments = new SelectList(departmentList, "Id", "Name");
 }
+
+@* @{ *@
+@*     ViewData["Title"] = "Create"; *@
+@* } *@
 
 <h1>Create Employee</h1>
 <br />
@@ -57,6 +60,16 @@
         <input asp-for="HiringDate" class="form-control" type="date" />
         <span asp-validation-for="HiringDate"></span>
     </div>
+    <div class="my-3">
+        <label asp-for="DepartmentId" class="col-form-label"></label>
+        <select asp-for="DepartmentId" class="form-control" asp-items="@(ViewBag.Departments ?? new SelectList(Enumerable.Empty<SelectListItem>()))">
+            <option value="">-- Select Department --</option>
+        </select>
+        <span asp-validation-for="DepartmentId"></span>
+    </div>
+
+
+
     <div>
         <input type="submit" value="Create" class="btn btn-primary" />
     </div>

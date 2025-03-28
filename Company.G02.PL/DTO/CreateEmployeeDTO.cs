@@ -1,4 +1,6 @@
-﻿namespace Company.G02.PL.DTO
+﻿using Company.G02.DAL.Models;
+
+namespace Company.G02.PL.DTO
 {
     public class CreateEmployeeDTO
     {
@@ -11,5 +13,7 @@
         public bool IsActive { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime HiringDate { get; set; }
+        public int? DepartmentId { get; set; }
+        public List<DepartmentDTO> Departments { get; set; } = new List<DepartmentDTO>();
     }
 }

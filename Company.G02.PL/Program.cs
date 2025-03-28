@@ -1,6 +1,7 @@
 ﻿using Company.G02.BLL.Interfaces;
 using Company.G02.BLL.Repositories;
 using Company.G02.DAL.Data.Contexts;
+using Company.G02.PL.Mapping;
 using Microsoft.EntityFrameworkCore;
 
 namespace Company.G02.PL
@@ -19,7 +20,7 @@ namespace Company.G02.PL
 
             builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-
+            builder.Services.AddAutoMapper(typeof(EmployeeProfile));
             var app = builder.Build(); 
 
             // Configure the HTTP request pipeline.
@@ -28,7 +29,7 @@ namespace Company.G02.PL
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
+          
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

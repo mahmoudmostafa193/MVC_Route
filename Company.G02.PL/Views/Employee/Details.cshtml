@@ -52,6 +52,10 @@
             <input asp-for="HiringDate" class="form-control" type="date" readonly />
 
         </div>
+        <div class="my-3">
+            <label asp-for="Department" class="col-form-label"></label>
+            <input asp-for="Department" class="form-control" readonly />
+        </div>
         <a asp-controller="Employee" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
         <a asp-controller="Employee" asp-action="Index" class="btn btn-light my-5">Back To List</a>
         @* <div> *@

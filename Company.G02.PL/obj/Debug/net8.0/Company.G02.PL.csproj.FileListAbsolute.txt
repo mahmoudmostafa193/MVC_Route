@@ -273,3 +273,4 @@ C:\Users\Nvidia\source\repos\Company.G02\Company.G02.PL\bin\Debug\net8.0\System.
 C:\Users\Nvidia\source\repos\Company.G02\Company.G02.PL\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Nvidia\source\repos\Company.G02\Company.G02.PL\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\Nvidia\source\repos\Company.G02\Company.G02.PL\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Nvidia\source\repos\Company.G02\Company.G02.PL\bin\Debug\net8.0\AutoMapper.dll
